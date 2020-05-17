@@ -2,14 +2,40 @@
   color: #a6917e;
   font-size: 32px;
   text-align: center;
+  padding-bottom: 30px;
 }
+
+div.row {
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.profile{
+  float: left;
+  width: 25%;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: relative;
+}
+
+.row:after {
+  position: relative;
+  content: "";
+  display: table;
+  clear: both;
+  padding: 20px;
+  padding-bottom:80px;
+}
+
 
 body {
   background-color: #ffffff;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left:10%;
+  margin-right:10%;
   margin-top:20px;
-  margin-bottom:10px;
+  margin-bottom:20px;
   font-size: 18px;
 }
 
@@ -38,4 +64,47 @@ body {
 /* Add a color to the active/current link */
 .topnav a.active {
   color: #a6917e;
+}
+
+
+/* Making horizontal lines with words */
+.strike {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 28px;
+  color: #a6917e;
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 2px;
+  background: #a6917e;
+}
+
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+/* Study staff page containers */
+.staff_img {
+  width: 50px;
+
 }
