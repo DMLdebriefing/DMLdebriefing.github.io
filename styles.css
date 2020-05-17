@@ -17,6 +17,7 @@ body {
   background-color: white;
   overflow: hidden;
   border-radius: 10px;
+  align: center;
 }
 
 /* Style the links inside the navigation bar */
