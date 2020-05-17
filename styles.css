@@ -1,6 +1,6 @@
 .title {
   color: #a6917e;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -14,13 +14,19 @@ div.row {
 
 .column_profile {
   float: left;
-  padding: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
   width: 20%;
-  font-size: 1vw;
+  font-size: 0.75vw;
+}
+
+.container_pro_pic {
+  width: 100%;
 }
 
 .profile_header {
-  font-size: 110%;
+  font-size: 125%;
+  font-weight: bold;
 }
 
 
@@ -34,8 +40,8 @@ img {
 }
 
 img.profile_pic {
-  width: 500px;
-  height: 300px;
+  width: 800px;
+  height: auto;
 
 }
 
@@ -44,8 +50,6 @@ img.profile_pic {
   content: "";
   display: table;
   clear: both;
-  padding: 20px;
-  padding-bottom:80px;
 }
 
 
@@ -72,7 +76,7 @@ body {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.25vw;
+  font-size: 1vw;
 }
 
 /* Change the color of links on hover */
@@ -92,7 +96,7 @@ body {
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 28px;
+  font-size: 1.35vw;
   color: #a6917e;
 }
 
