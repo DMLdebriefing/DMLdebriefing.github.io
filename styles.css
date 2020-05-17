@@ -1,6 +1,6 @@
 .title {
   color: #a6917e;
-  font-size: 32px;
+  font-size: 3vw;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -12,12 +12,31 @@ div.row {
   padding-bottom: 20px;
 }
 
-.profile{
+.column_profile {
   float: left;
-  width: 25%;
-  padding-left: 2%;
-  padding-right: 2%;
-  position: relative;
+  padding: 4%;
+  width: 20%;
+  font-size: 1vw;
+}
+
+.profile_header {
+  font-size: 110%;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  height: auto;
+  object-fit:scale-down;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+img.profile_pic {
+  width: 500px;
+  height: 300px;
+
 }
 
 .row:after {
@@ -36,7 +55,7 @@ body {
   margin-right:10%;
   margin-top:20px;
   margin-bottom:20px;
-  font-size: 18px;
+  font-size: 1vw;
 }
 
 .topnav {
@@ -53,7 +72,7 @@ body {
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.25vw;
 }
 
 /* Change the color of links on hover */
@@ -65,7 +84,6 @@ body {
 .topnav a.active {
   color: #a6917e;
 }
-
 
 /* Making horizontal lines with words */
 .strike {
@@ -106,5 +124,4 @@ body {
 /* Study staff page containers */
 .staff_img {
   width: 50px;
-
 }
