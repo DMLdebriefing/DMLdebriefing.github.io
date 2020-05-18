@@ -17,7 +17,8 @@ div.row {
   padding-left: 4%;
   padding-right: 4%;
   width: 20%;
-  font-size: 0.75vw;
+  font-size: 1vw;
+  text-align: left;
 }
 
 .container_pro_pic {
@@ -27,6 +28,7 @@ div.row {
 .profile_header {
   font-size: 125%;
   font-weight: bold;
+  text-align: center;
 }
 
 
