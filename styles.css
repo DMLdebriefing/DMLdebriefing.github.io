@@ -37,7 +37,7 @@ div.row {
 }
 
 .left {
-  width: 31%;
+  width: 30%;
   padding-left: 3vw;
   padding-right: 0px;
   padding-bottom: 0;
@@ -46,7 +46,7 @@ div.row {
 
 .right {
   padding-left: 0px;
-  width: 31%;
+  width: 30%;
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 0;
@@ -55,7 +55,7 @@ div.row {
 }
 
 .middle {
-  width: 31%;
+  width: 30%;
   float: center;
   padding: 0;
 }
