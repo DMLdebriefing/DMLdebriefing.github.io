@@ -136,6 +136,7 @@ body {
 /* Contact form styles */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
+  margin: auto;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -167,7 +168,7 @@ input[type=submit]:hover {
   width: 80%;
   border-radius: 5px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   padding-left: 10%;
 }
 

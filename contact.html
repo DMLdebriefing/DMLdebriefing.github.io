@@ -21,17 +21,18 @@
     </div>
 
     <div class="contact_container">
-    <form method="POST" action="contact.php">
-
-      <input type="text" id="name" name="name" placeholder="Name..">
-
-      <input type="text" id="email" name="email" placeholder="email..">
-
-      <textarea id="subject" name="subject" placeholder="Questions for study staff?" style="height:200px"></textarea>
-
-      <input type="submit" value="Submit">
-
-    </form>
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjqydwr" method="post">
+          <!-- <label for="full-name">Full Name</label> -->
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <!-- <label for="email-address">Email Address</label> -->
+          <input type="text" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+          <!-- <label for="message">Message</label> -->
+          <textarea rows="7" name="message" id="message" placeholder="Questions for the study staff?" required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          <div align="center">
+              <input type="submit" value="Submit">
+          </div>
+      </form>
   </div>
 
   </body>
